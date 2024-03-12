@@ -1,0 +1,45 @@
+// Override default variables before the import
+$body-bg: rgb(255, 255, 255);
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+
+*{
+    color: #ffffff;
+}
+
+.navbar-brand{
+ color: #ffffff;
+}
+
+.nav-link{
+color: rgb(255 174 67);
+}
+
+.nav-top{
+background-color: rgba(0, 0, 43, 0.65);
+color: #ffffff;
+border-bottom: 1px solid rgb(0, 20, 116)
+}
+
+body{
+background: rgb(225, 225, 226);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 7px );
+-webkit-backdrop-filter: blur( 7px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.logo{
+
+    height: 50px;
+    width: 50px;
+}
+
+.pepsito{
+
+    height: 505px;
+    width: 100%;
+}
